@@ -1,24 +1,164 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+h1, h2 {
     text-align: center;
-}
+    font-weight: bold;
+    color: #ffffff;
 
-nav {
-    background-color: #333;
-    padding: 10px;
-}
+    background-color: rgba(0, 0, 0, 0.55); /* 🔥 CONTRASTE */
+    padding: 12px;
+    border-radius: 12px;
 
-nav a {
-    color: white;
-    margin: 10px;
-    text-decoration: none;
+    display: inline-block;
+    margin: 20px auto;
+
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
 }
 
 h1 {
-    font-size: 40px;
-    margin-top: 20px;
+    font-size: 36px;
 }
 
-img {
-    margin-top: 20px;
+h2 {
+    font-size: 24px;
+}
+
+
+p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #ffffff;
+
+    background-color: rgba(0, 0, 0, 0.45); 
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+.menu-fantasia {
+    background: rgba(10, 10, 25, 0.95);
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffd56b;
+    transform: scale(1.05);
+}
+
+.navbar-nav .nav-link.active {
+    color: #ffd56b;
+    text-decoration: underline;
+}
+
+
+.portada-img {
+    max-width: 500px;
+    width: 100%;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+}
+
+.galeria-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+}
+
+.carousel-img {
+    height: 450px;
+    object-fit: cover;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+}
+
+
+.container {
+    padding-bottom: 40px;
+}
+
+
+.boton-azul {
+    background-color: #3f66ff;
+    color: white;
+    border: none;
+}
+
+.boton-azul:hover {
+    background-color: #2948c7;
+    color: white;
+}
+
+.boton-verde {
+    background-color: #2ca36b;
+    color: white;
+    border: none;
+}
+
+.boton-verde:hover {
+    background-color: #1f7a4f;
+    color: white;
+}
+
+.boton-rojo {
+    background-color: #a33a3a;
+    color: white;
+    border: none;
+}
+
+.boton-rojo:hover {
+    background-color: #7f2929;
+    color: white;
+}
+
+.pagina-index {
+    background: linear-gradient(to bottom, #0b1d3a, #1a3c6e, #3c6db5);
+}
+
+
+.pagina-uno {
+    background: linear-gradient(to bottom, #1e0f2f, #3d1c63, #5c2d91);
+}
+
+
+.tarjeta-morada {
+    background-color: #f5ecff; 
+    color: #2d1247; 
+    border: none;
+    border-left: 6px solid #d6a8ff;
+}
+
+
+.pagina-dos {
+    background: linear-gradient(to bottom, #0c2e24, #155c46, #2f8f6d);
+}
+
+
+.pagina-tres {
+    background: linear-gradient(to bottom, #2a0d0d, #5a1a1a, #8c2f2f);
+}
+
+
+.acordeon-rojo .accordion-button {
+    background-color: #f5e6c8;
+    color: #4a1a1a;
+    font-weight: bold;
+}
+
+.acordeon-rojo .accordion-button:not(.collapsed) {
+    background-color: #e0b66d;
+    color: #2a0d0d;
+}
+
+.acordeon-rojo .accordion-body {
+    background-color: #fff7ea;
+    color: #2a0d0d;
 }
